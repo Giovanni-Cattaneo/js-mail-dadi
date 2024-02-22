@@ -10,4 +10,8 @@ let mailingList = ["123@gmail.com", "132@gmail.com", "213@gmail.com", "321@gmail
 
 console.log(mailingList);
 
-btn.addEventListener("click" myFunction)
+btn.addEventListener("click", myFunction)
+
+function myFunction() {
+    
+}
