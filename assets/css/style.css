@@ -4,3 +4,13 @@
     border: 1px solid;
     text-align: center;
 }
+
+.true, .false{
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: -7rem;
+}

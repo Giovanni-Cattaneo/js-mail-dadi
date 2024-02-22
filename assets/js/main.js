@@ -11,11 +11,16 @@ console.log(mailingList);
 btn.addEventListener("click", myFunction) // Al cliccare del btn atttiva la funzione
 
 function myFunction() { // Funzione, al click verifica se il valore inserito nell'inpu mail è presente nella mailingList
+    let correct = document.querySelector(".true")
+    let inCorrect = document.querySelector(".false")
+    
     if (mailingList.includes(document.getElementById("mail").value)) {
         console.log("true");
+        correct.innerHTML += "Acces granted"
         
     } else {
         console.log("false");
+        correct.innerHTML += "Acces denied"
         
     }
 }
