@@ -20,3 +20,27 @@ function myFunction() { // Funzione, al click verifica se il valore inserito nel
     }
 }
 
+
+
+let userNumber = Math.floor((Math.random() * 6) + 1)
+let desktopNumber = Math.floor((Math.random() * 6) + 1)
+
+console.log(userNumber);
+console.log(desktopNumber);
+
+let numbs = [userNumber, desktopNumber]
+let results = document.getElementById("results")
+
+if(userNumber > desktopNumber){
+    console.log("User win");
+    results.innerHTML += "User win"
+    results.style.backgroundColor = "green";
+}else if(userNumber < desktopNumber){
+    console.log("Desktop win");
+    results.innerHTML += "Desktop win"
+    results.style.backgroundColor = "red";
+}else{
+    console.log("It's a tie, ready for round two?");
+    results.innerHTML += "It's a tie, ready for round two?"
+    results.style.backgroundColor = "lightgray";
+}

@@ -14,6 +14,8 @@ Bonus
 Usiamo un input e un bottone per inserire la mail e poi mostriamo i risultati in pagina.
 Buon lavoro e buon divertimento! :baby-yoda:
 
+ES 1
+
 ## steps
 - Creaimao in pagina un input text/mail per inserire la mail
 - crea un array di indirizzi mail che possono accedere
@@ -26,5 +28,20 @@ Buon lavoro e buon divertimento! :baby-yoda:
 - Let/const
 - Array
 - Function
+- log
+
+
+ES 2
+
+## steps
+- creiamo due variabili per il numero random una per noi e una per il pc
+- inserire le due variabili in un array
+- utilizzando if stampare in console un messaggio adeguato per il messaggio piu alto dei due
+
+## Tools
+- Math.random
+- let/const
+- array
+- if/else
 - log
 
