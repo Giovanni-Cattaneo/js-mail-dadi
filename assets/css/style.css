@@ -1,16 +1,24 @@
+*{
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
 #results{
     padding: 2rem;
     margin: 10rem;
     border: 1px solid;
-    text-align: center;
 }
 
 .true, .false{
     padding: 2rem;
-    margin-top: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
 }
 
 h2{
-    text-align: center;
     margin-bottom: -7rem;
 }
