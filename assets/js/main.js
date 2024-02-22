@@ -28,7 +28,7 @@ function myFunction() { // Funzione, al click verifica se il valore inserito nel
 
 
 
-let userNumber = Math.floor((Math.random() * 6) + 1)
+let userNumber = Math.floor((Math.random() * 6) + 1) // questa operazione permette di creare un numero randomico tra 1 e 6
 let desktopNumber = Math.floor((Math.random() * 6) + 1)
 
 console.log(userNumber);
@@ -37,7 +37,7 @@ console.log(desktopNumber);
 let numbs = [userNumber, desktopNumber]
 let results = document.getElementById("results")
 
-if(userNumber > desktopNumber){
+if(userNumber > desktopNumber){ //questo if serve a determinare quale dei due valori sia maggior e etsmpare in pagina il risultato
     console.log("User win");
     results.innerHTML += "User win"
     results.style.backgroundColor = "green";
