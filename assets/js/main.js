@@ -16,12 +16,12 @@ function myFunction() { // Funzione, al click verifica se il valore inserito nel
     
     if (mailingList.includes(document.getElementById("mail").value)) {
         console.log("true");
-        correct.innerHTML += "Acces granted"
+        correct.innerHTML = "Acces granted"
         correct.style.backgroundColor = "green";
         
     } else {
         console.log("false");
-        inCorrect.innerHTML += "Acces denied";
+        inCorrect.innerHTML = "Acces denied";
         inCorrect.style.backgroundColor = "red";
     }
 }
